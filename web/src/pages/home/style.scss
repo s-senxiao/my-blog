@@ -1,0 +1,43 @@
+
+.page-container-home {
+  .post {
+    padding: 25px 0 15px;
+    .post-title {
+      margin: 0;
+      color: #555;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: inherit;
+      a {
+        color: #555;
+      }
+    }
+    .post-meta {
+      padding: 0;
+      margin: 15px 0 0;
+      color: #6E7173;
+      float: left;
+      display: inline;
+      text-indent: .15em;
+      .anticon {
+        margin-right: 5px;
+        vertical-align: middle;
+        color: red;
+      }
+      .date {
+        vertical-align: middle;
+      }
+    }
+    .post-content {
+      clear: left;
+      font-size: 15px;
+      line-height: 1.77;
+      color: #444;
+      padding-top: 15px;
+      text-align: justify;
+      text-justify: distribute;
+      word-break: normal;
+    }
+  }
+}

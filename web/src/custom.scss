@@ -1,0 +1,5 @@
+// 在导入之前覆盖默认变量
+$body-bg: #000;
+
+// 导入 Bootstrap 及其默认变量
+@import '~bootstrap/scss/bootstrap.scss';
